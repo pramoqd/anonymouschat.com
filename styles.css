@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+#chat-link-container {
+  margin-bottom: 20px;
+}
+
+#inbox {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#messages {
+  list-style-type: none;
+  padding: 0;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+#message-form {
+  display: flex;
+  margin-top: 20px;
+}
+
+#message-input {
+  flex-grow: 1;
+  margin-right: 10px;
+}
